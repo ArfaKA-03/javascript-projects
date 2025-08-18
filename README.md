@@ -16,16 +16,18 @@ JavaScript is at the heart of Full Stack Development. These projects helped me l
 
 ## 🧩 Projects Overview
 
-### ✅ Part 1: *Shopping Cart UI*
-> A dynamic cart that lets users add, remove, update quantity, and view total prices with real-time feedback.
+### Part 1:🛒 JavaScript Shopping Cart Project
+Task 1: Create a product array and print it in console.
 
-*Concepts Covered:*
-- var/let/const, type coercion
-- DOM APIs, event handling
-- Closures, IIFE
-- localStorage usage
-- Array methods (map, reduce, etc.)
+Task 2: Use .map() to display product list dynamically in the DOM.
 
+Task 3: Add "Add" buttons next to each product.
+
+Task 4: Push items into a cart array on button click.
+
+Task 5: Update product quantity after purchase (inventory simulation).
+
+Task 6: Calculate and display cart total dynamically.
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/javascript-mastery-projects.git
