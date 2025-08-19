@@ -21,6 +21,6 @@ The project involves creating a product array and printing it in the console, th
 git clone https://github.com/your-username/javascript-mastery-projects.git
 
 # Navigate into any part
-cd Part1_ShoppingCart
+cd JavaScript Shopping Cart Project
 
 # Open index.html in a browser
