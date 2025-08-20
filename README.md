@@ -28,3 +28,5 @@ git clone https://github.com/your-username/javascript-mastery-projects.git
 cd JavaScript Shopping Cart Project
 
 # Open index.html in a browser
+```
+## Part 2:🧮
