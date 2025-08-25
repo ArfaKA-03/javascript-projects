@@ -30,3 +30,17 @@ cd JavaScript Shopping Cart Project
 # Open index.html in a browser
 ```
 ## Part 2:🧮 Simple Calculator
+# Calculator
+
+A simple and responsive calculator built using **HTML**, **CSS**, and **JavaScript**.
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/javascript-projects.git
+
+# Navigate into any part
+cd calculator
+
+# Open index.html in a browser
+```
+
