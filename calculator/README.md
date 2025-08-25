@@ -1,3 +1,5 @@
+## Part 2:🧮 Simple Calculator
+
 ## 🚀 Features
 - Perform basic arithmetic operations: **Addition**, **Subtraction**, **Multiplication**, **Division**
 - **Clear** and **backspace** functionality
