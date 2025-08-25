@@ -22,7 +22,7 @@ The project involves creating a product array and printing it in the console, th
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/javascript-mastery-projects.git
+git clone https://github.com/your-username/javascript-projects.git
 
 # Navigate into any part
 cd JavaScript Shopping Cart Project
