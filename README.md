@@ -30,7 +30,6 @@ cd JavaScript Shopping Cart Project
 # Open index.html in a browser
 ```
 ## Part 2:🧮 Simple Calculator
-# Calculator
 
 A simple and responsive calculator built using **HTML**, **CSS**, and **JavaScript**.
 
