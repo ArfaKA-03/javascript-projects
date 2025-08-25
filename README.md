@@ -16,9 +16,9 @@ JavaScript is at the heart of Full Stack Development. These projects helped me l
 
 ## Part 1:🛒 JavaScript Shopping Cart Project
 
-<small>
-The project involves creating a product array and printing it in the console, then dynamically displaying the product list in the DOM using .map(). Each product should have an "Add" button, and when clicked, the selected items are pushed into a cart array. The product quantity should be updated after each purchase to simulate inventory management, and the cart total must be calculated and displayed dynamically.
-</small>
+- Display a product list dynamically in the DOM using `.map()` from a product array.
+- Add an "Add" button for each product to push selected items into a cart and update inventory quantity.
+- Calculate and display the cart total dynamically as items are added.
 
 ```bash
 # Clone the repository
