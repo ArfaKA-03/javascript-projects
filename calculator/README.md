@@ -2,7 +2,7 @@
 
 ## 🚀 Features
 - Perform basic arithmetic operations: **Addition**, **Subtraction**, **Multiplication**, **Division**, **Percentage**
-- **Clear** and **backspace** functionality
+- **backspace** functionality
 - User-friendly interface
 
 ## 🛠️ Technologies Used
