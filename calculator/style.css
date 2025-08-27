@@ -6,8 +6,41 @@
 }
 
 body {
-    background-color: #344E41;
+    background-color: #fefae0ff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.heading {
+    font-family: 'Playwrite CA', sans-serif;
+    font-size: 32px;
+    color: #000;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading .logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    object-fit: contain;
+    background: transparent;
+}
+
+.container {
+    background-color: #f1faeeff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: 100px; /*top of calculator*/
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    height: fit-content;
 }
