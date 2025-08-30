@@ -60,3 +60,46 @@ body {
     color: #000;
     border-radius: 5%;
 }
+
+/*Button layout*/
+.num {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 12px;
+}
+
+/*Button style*/
+button {
+    height: 45px;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background: #a8dadcff;
+    color: #000;
+}
+
+/*Hover effect*/
+button:hover {
+    filter: brightness(1.2);
+}
+
+/*Special buttons*/
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(13),
+button:nth-child(16),
+button:nth-child(17),
+button:nth-child(18),
+button:nth-child(19) {
+    background: #457b9dff;
+    color: #000;
+}
+
+/*ans button*/
+button:nth-child(20) {
+    background-color: #e63946ff;
+    color: #000;
+}
