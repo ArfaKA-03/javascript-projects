@@ -43,4 +43,6 @@ cd calculator
 
 # Open index.html in a browser
 ```
-## Part 3:
+## Part 3:🎯 QuizzWhizz 
+
+QuizzWhizz is a simple and interactive quiz application that allows users to play quizzes with ease and reveals answers after submission.
