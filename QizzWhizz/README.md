@@ -3,8 +3,6 @@
 QuizzWhizz is a lightweight and user-friendly quiz participation app.
 The app has different categories where users can play quizzes, test their knowledge, and view their scores all in one place.
 
----
-
 ## ✨ Features  
 
 - 🗂️ **Play Quizzes by Category** – Choose from multiple quiz categories to test your knowledge.  
@@ -12,10 +10,11 @@ The app has different categories where users can play quizzes, test their knowle
 - 📊 **Track Performance** – Keep a record of your past quiz attempts and scores.  
 - 🎨 **Clean & Intuitive UI** – Simple, attractive, and easy to navigate for all users.  
 
----
+## 🛠️ Technologies Used
 
-## 🛠️ Tech Stack  
-
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
 
 ---
