@@ -125,3 +125,43 @@ body {
     margin-top: 15px;
     margin-bottom: 40px;
 }
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    justify-items: center;
+    margin-top: 22px;
+}
+.card {
+    width: 220px;
+    height: 110px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;             /* remove default button border */
+    outline: none;            /* remove outline */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #8D99B9(0,0,0,0.15);
+}
+
+/* Category Colors */
+.yellow { color: #f4d03f; }
+.blue { color: #3498db; }
+.green { color: #2ecc71; }
+.red { color: #e74c3c; }
+.purple { color: #8e44ad; }
+.pink { color: #9b59b6; }
+.magenta { color: #e056fd; }
+.orange { color: #e67e22; }
