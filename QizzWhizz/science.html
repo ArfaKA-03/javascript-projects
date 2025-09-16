@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizzWizz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Quizly Logo" class="logo-img">QizzWhizz
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#" class="active">Categories</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+    <div class="profile">
+      <img src="https://i.pravatar.cc/40" alt="profile">
+    </div>
+  </nav>
+  <button class="ex">Exit</button>
+  <!-- Quiz Container -->
+  <div class="quiz-container">
+    <!-- Question 1 -->
+    <section class="quiz-section">
+      <div class="quiz-card">
+        <p class="progress">Question 1 of 5</p>
+        <div class="progress-bar"> <span></span></div>
+        <h2 class="question">1. What is the chemical symbol for water?</h2>
+        <div class="options">
+          <button class="option" data-correct="true">H2O</button>
+          <button class="option">O2</button>
+          <button class="option">CO2</button>
+          <button class="option">HO</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question 2 -->
+    <section class="quiz-section">
+      <div class="quiz-card">
+        <p class="progress">Question 2 of 5</p>
+        <div class="progress-bar"> <span></span></div>
+        <h2 class="question">2. Which planet is known as the Gas Giant?</h2>
+        <div class="options">
+          <button class="option">Earth</button>
+          <button class="option">Mars</button>
+          <button class="option" data-correct="true">Jupiter</button>
+          <button class="option">Venus</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-section">
+      <div class="quiz-card">
+        <p class="progress">Question 3 of 5</p>
+        <div class="progress-bar"> <span></span></div>
+        <h2 class="question">3. What force keeps planets in orbit around the Sun? </h2>
+        <div class="options" id="options">
+          <button class="option">Magnetism</button>
+          <button class="option" data-correct="true">Gravity</button>
+          <button class="option">Friction</button>
+          <button class="option">Electricity</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-section">
+      <div class="quiz-card">
+        <p class="progress">Question 4 of 5</p>
+        <div class="progress-bar"> <span></span></div>
+        <h2 class="question">4. Which gas do plants absorb from the atmosphere for photosynthesis?</h2>
+        <div class="options" id="options">
+          <button class="option">Oxygen</button>
+          <button class="option">Nitrogen</button>
+          <button class="option" data-correct="true">Carbon Dioxide</button>
+          <button class="option">Hydrogen</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-section">
+      <div class="quiz-card">
+        <p class="progress">Question 5 of 5</p>
+        <div class="progress-bar"> <span></span></div>
+        <h2 class="question">5. What part of the cell contains the genetic material?</h2>
+        <div class="options" id="options">
+          <button class="option">Cytoplasm</button>
+          <button class="option" data-correct="true">Nucleus</button>
+          <button class="option">Mitochondria</button>
+          <button class="option">Ribosome</button>
+        </div>
+      </div>
+    </section>
+
+<div class="actions">
+  <button class="prevbtn">Previous</button>
+  <button class="nextbtn">Next Question</button>
+</div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
