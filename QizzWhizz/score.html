@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzWizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Quizly Logo" class="logo-img">QizzWhizz
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">Categories</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <div class="profile">
+            <img src="https://i.pravatar.cc/40" alt="profile">
+        </div>
+    </nav>
+
+    <!-- Results Container -->
+    <div class="scontainer">
+        <h1 class="stitle">Congratulations!</h1>
+        <p class="ssubtitle">You've completed the {} quiz.</p>
+
+        <div class="score-container">
+            <div class="score-card">
+                <div class="results">
+                    <div class="score-section">
+                        <h2>Score</h2>
+                        <p class="score-number">3/5</p>
+                    </div>
+                    <div class="accuracy-section">
+                        <h2>Accuracy</h2>
+                        <p class="accuracy-number">60%</p>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <span style="width: 60%;"></span>
+                </div>
+                <div class="actionss">
+                    <button class="prevs start-btn">Review Answers</button>
+                    <button id="bck" class="nexts start-btn">Back to Categories</button>
+                    <button id="playagain" class="play start-btn">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="score.js"></script>
+</body>
+
+</html>
