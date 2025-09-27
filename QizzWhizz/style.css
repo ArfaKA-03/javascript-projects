@@ -251,3 +251,249 @@ body {
   width: 100%;
   margin-top: 15px;
 }
+
+/* Buttons */
+.prevbtn, .nextbtn {
+  padding: 18px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+}
+
+/* Extra button */
+.ex {
+  align-self: flex-start; /* moves the button to the left */
+  margin-top: 25px;
+  margin-left: 30px;
+  padding: 12px 24px;     /* button size */
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #706FA3;
+  color: #fff;
+}
+
+/* Previous button style */
+.prevbtn {
+  background: #fff;
+  border: 2px solid #ccc;
+  color: #333;
+}
+
+/* Next button style */
+.nextbtn {
+  background: #fff;
+  border: 2px solid #ccc;
+  color: #333;
+}
+
+/* Hover for Previous */
+.prevbtn:hover {
+  background-color: #7683a9;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Hover for Next */
+.nextbtn:hover {
+  background-color: #5a5985;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Hover for Extra */
+.ex:hover {
+  background-color: #5a5985;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+
+/* Leaderboard section */
+.leaderboard {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.leaderboard-title {
+  font-size: 46px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 8px;
+  color: #624190;
+}
+
+.leaderboard-subtitle {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+/* Table */
+.leaderboard-table {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
+.leaderboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leaderboard-table th, 
+.leaderboard-table td {
+  padding: 18px 20px;
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+}
+
+.leaderboard-table th {
+  background: #f9f9f9;
+  font-weight: 700;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.leaderboard-table tr:hover {
+  background: #f3f3f3;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+/*quiz container*/
+.quiz-section {
+  display: none;
+}
+.quiz-section.active {
+  display: block;
+}
+
+/* Quiz Score */
+.scontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* aligns items to the top */
+    align-items: center;         /* center horizontally */
+    padding-top: 50px;           /* space from top */
+    background-color: #fff;
+}
+
+/* Title styling */
+.stitle {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 40px;
+}
+
+/* Subtitle styling */
+.ssubtitle {
+    font-size: 1.8rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+.score-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 60px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.score-section, .accuracy-section {
+    text-align: center;
+}
+
+.score-number, .accuracy-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #706FA3;
+    margin-top: 10px;
+}
+
+/* Adjust quiz-card width */
+.score-card {
+    width: 800px;
+    height: 250px;
+}
+
+/* Adjust actions buttons */
+.actionss {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.actionss .start-btn {
+  margin-top: 20px;
+    padding: 18px 25px;
+    font-size: 16px;
+}
+
+.actionss .play{
+    background-color: #706FA3;
+    color: #fff;
+}
+
+.actionss .play:hover {
+    background-color: #706FA3;
+}
+
+.actionss .nexts, .prevs {
+    background-color: #fff;
+    color: #706FA3;
+    border: 2px solid #706FA3;
+}
+
+.actionss .nexts:hover {
+    background-color: #624190;
+    color: #fff;
+}
+.actionss .prevs:hover {
+    background-color: #624190;
+    color: #fff;
+}
+/* Progress Bar */
+.progress-bar {
+    height: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #d0cece;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: #706FA3;
+}
