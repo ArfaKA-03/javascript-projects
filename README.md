@@ -46,3 +46,13 @@ cd calculator
 ## Part 3:🎯 QuizzWhizz 
 
 QuizzWhizz is a simple and interactive quiz application that allows users to play quizzes with ease and reveals answers after submission.
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/javascript-projects.git
+
+# Navigate into any part
+cd QizzWhizz
+
+# Open index.html in a browser
+```
